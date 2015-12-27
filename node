@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker run --rm -it -p 8083:80 -v $HOME/node/work/:/root/node/:rw --privileged=true --entrypoint node node_node $@
+docker run --rm -it -p 8083:80 -v $HOME/node/work/:/root/node/:rw node_node "echo pid1 > /dev/null && node $@"

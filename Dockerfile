@@ -43,3 +43,5 @@ RUN curl -SLO "https://nodejs.org/dist/v$NODE_VERSION/node-v$NODE_VERSION-linux-
 RUN rm -rf /var/lib/apt/lists/*
 
 RUN node -v && npm -v
+
+ENTRYPOINT ["/bin/bash", "-c"]
