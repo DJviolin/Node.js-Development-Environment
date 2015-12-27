@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker run --rm -it -p 8083:80 -v $HOME/node/work/:/root/node/:rw --entrypoint node node_node $@
+docker run --rm -it -p 8083:80 -v $HOME/node/work/:/root/node/:rw --privileged --entrypoint node node_node $@
