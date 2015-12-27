@@ -1,4 +1,4 @@
-# Dockerised Node.js Development Environment
+# Node.js Development Environment
 
 ## Prerequisites
 
