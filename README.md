@@ -19,6 +19,7 @@ Running Node.js:
 $ chmod +x ~/node/node
 $ cd ~/node
 $ ./node -v
+$ ./node /root/node/hello-world.js
 ```
 
 Running NPM:
